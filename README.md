@@ -11,3 +11,63 @@ The goal of this project is to develop a structured and efficient framework capa
 - **Implementing various quantitative pricing techniques**, from closed-form models (Black-Scholes) to stochastic methods like Monte Carlo simulations and numerical approaches such as binomial and trinomial trees.  
 
 The project is entirely written in **Python**, using **Streamlit** to create a simple and interactive interface. While primarily designed as a personal learning tool, it could also serve as a useful starting point for further exploration of option pricing and risk analysis.
+
+## **Key Features**
+
+- **Option Pricing**:
+
+  - Vanilla European (Call/Put)
+  - Digital (Cash-or-Nothing) (To be done)
+  - Barrier (Knock-in/Knock-out) (To be done)
+  - Asian (Average Price/Average Strike) (To be done)
+  - Basket (Multiple underlyings) (To be done)
+
+
+
+## **Project** **Structure**
+
+```
+ExoticOptionPricer/
+├── pricing/
+│   ├── black_scholes.py
+│   ├── monte_carlo.py
+│   └── binomial_tree.py
+│
+├── greeks/
+│   ├── greeks.py
+│   └── visualisation.py
+│
+├── utils/
+│   └── market_data.py
+│
+├── data/             # Temporary and external data
+├── tests/            # Unit tests
+├── docs/             # Documentation
+├── requirements.txt  # Python dependencies
+└── streamlit_app.py  # Main Streamlit interface
+```
+
+## **Project Evolution
+
+06/03/2024 - Creation of the repository and folders structure
+
+## **Installation**
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/axlstl/multi-exotic-option-pricer.git
+cd multi-exotic-option-pricer
+```
+
+2. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the Streamlit app:
+
+```bash
+streamlit run streamlit_app.py
+```
