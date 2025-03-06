@@ -19,8 +19,8 @@ The project is entirely written in **Python**, using **Streamlit** to create a s
   - Vanilla European (Call/Put)
   - Digital (Cash-or-Nothing) (To be done)
   - Barrier (Knock-in/Knock-out) (To be done)
-  - Asian (Average Price/Average Strike) (To be done)
-  - Basket (Multiple underlyings) (To be done)
+  - Asian (To be done)
+  - Basket (To be done)
 
 
 
