@@ -29,7 +29,7 @@ The project is entirely written in **Python**, using **Streamlit** to create a s
 ```
 multi-exotic-option-pricer/
 ├── pricing/
-│   ├── closed_form.py
+│   ├── closed_formulas.py
 │   ├── monte_carlo.py
 │   └── binomial_tree.py
 │
