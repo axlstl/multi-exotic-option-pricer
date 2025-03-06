@@ -24,10 +24,10 @@ The project is entirely written in **Python**, using **Streamlit** to create a s
 
 
 
-## **Project** **Structure**
+## **Project Structure**
 
 ```
-ExoticOptionPricer/
+multi-exotic-option-pricer/
 ├── pricing/
 │   ├── black_scholes.py
 │   ├── monte_carlo.py
@@ -40,9 +40,6 @@ ExoticOptionPricer/
 ├── utils/
 │   └── market_data.py
 │
-├── data/             # Temporary and external data
-├── tests/            # Unit tests
-├── docs/             # Documentation
 ├── requirements.txt  # Python dependencies
 └── streamlit_app.py  # Main Streamlit interface
 ```
