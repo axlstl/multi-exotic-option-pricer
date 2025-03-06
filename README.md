@@ -44,7 +44,7 @@ multi-exotic-option-pricer/
 └── streamlit_app.py  # Main Streamlit interface
 ```
 
-## **Project Evolution
+## **Project Evolution**
 
 06/03/2024 - Creation of the repository and folders structure
 
