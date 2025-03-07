@@ -1,0 +1,18 @@
+# Exclure l'environnement virtuel
+venv/
+.venv/
+
+# Exclure les fichiers compilés Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Exclure les fichiers système et IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Exclure les fichiers temporaires
+*.csv
+*.xlsx
+.streamlit/
