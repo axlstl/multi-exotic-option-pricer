@@ -1,18 +1,15 @@
-# Exclure l'environnement virtuel
+#virtual env
 venv/
 .venv/
-
-# Exclure les fichiers compilés Python
+#compiled python files
 __pycache__/
 *.pyc
 *.pyo
-
-# Exclure les fichiers système et IDE
+#systems and ied
 .DS_Store
 .vscode/
 .idea/
-
-# Exclure les fichiers temporaires
+#temp files
 *.csv
 *.xlsx
 .streamlit/
