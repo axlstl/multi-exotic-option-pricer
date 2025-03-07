@@ -7,7 +7,7 @@ This project serves as my first multi-file project and my first experience using
 The goal of this project is to develop a structured and efficient framework capable of:  
 
 - **Pricing** a wide range of financial derivatives, from standard vanilla options (European calls/puts) to more complex exotic structures such as barrier, digital, basket, and Asian options.  
-- **Computing and visualizing key risk sensitivities (Greeks)**, including first-order measures like Delta, Gamma, Vega, Theta, and Rho, as well as second-order sensitivities like Vanna and Volga.  
+- **Computing and visualizing key risk sensitivities (Greeks)**, including first-order measures like Delta, Gamma, Vega, Theta, and Rho.
 - **Implementing various quantitative pricing techniques**, from closed-form models (Black-Scholes) to Monte Carlo simulations and numerical approaches such as binomial trees.
 
 The project is entirely written in **Python**, using **Streamlit** to create a simple and interactive interface. While primarily designed as a personal learning tool, it could also serve as a useful starting point for further exploration of option pricing and risk analysis.
